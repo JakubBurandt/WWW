@@ -1,0 +1,122 @@
+<div class="container">
+    <div class="row mt-2 mb-5">
+        <div class="container-background">
+            <div class="row">
+                <h2 class="about-title">
+                    History
+                </h2>
+            </div>
+            <div class="row">
+                <p style="text-align: justify;">
+                    <img src="img/history.png" style="float: left; margin: 6px; width: 100px; height: 76px;"
+                        id="animacjaTestowa2" class="test-block"/>
+                    <script>
+                        $("#animacjaTestowa2").on({
+                            "mouseover": function () {
+                                $(this).animate({
+                                    width: "140px",
+                                    height: "120px"
+                                }, 800);
+                            },
+                            "mouseout": function () {
+                                $(this).animate({
+                                    width: "100px",
+                                    height: "76px"
+                                }, 800);
+                            }
+                        });
+                    </script>
+                    <b>Hover over the image</b>
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec erat est, mattis sit amet nisi
+                    eu,
+                    cursus aliquam dolor. Morbi quis felis dui.
+                    Maecenas vitae nunc sit amet elit vulputate blandit sit amet sit amet diam. Sed velit felis,
+                    faucibus quis mi at, imperdiet sollicitudin mi.
+                    Ut porta tempor orci id tempor. Donec pulvinar tincidunt neque ac elementum. Nulla semper
+                    consectetur finibus. Etiam at dignissim orci.
+                    Quisque id euismod metus. Nam blandit diam nec pretium consequat. Aliquam maximus interdum
+                    dignissim. Nunc id varius justo. Sed finibus blandit lacinia.
+                    Proin eu aliquam mauris. Suspendisse lacus arcu, suscipit eu nulla non, aliquet egestas justo.
+                    Sed
+                    sed consectetur urna.
+                    Nullam vel mauris quis arcu tincidunt vestibulum. Praesent sit amet lorem vel metus mollis
+                    pharetra.
+                    Quisque bibendum tellus elit.
+                    In justo dolor, malesuada id mollis eget, posuere eu ipsum. Integer eget nunc lobortis, cursus
+                    nunc
+                    ac, ultricies sapien. Maecenas convallis odio sed elementum porttitor.
+                    Pellentesque ligula dui, efficitur interdum varius at, congue ac nibh. Aliquam a lectus at est
+                    sodales sollicitudin. In hac habitasse platea dictumst.
+                    Aenean sit amet venenatis turpis. Mauris tempus nisl nisl, vel porta diam dignissim sit amet. In
+                    ex
+                    odio, semper et pellentesque vel, rhoncus sit amet nisl.
+                    Suspendisse purus nulla, faucibus eu lacinia a, imperdiet sed mi. Aliquam eu ipsum scelerisque,
+                    rutrum ipsum finibus, rhoncus quam.
+                    Aliquam quis tellus eu enim lacinia dignissim et vel neque.
+                </p>
+            </div>
+            <div class="row">
+                <h2 class="about-title">
+                    What is the NBA now?
+                </h2>
+            </div>
+            <div class="row">
+                <p style="text-align: justify;">
+                    <img src="img/logo.png" style="float: left; margin: 6px; width: 80px; height: 90px;"
+                        id="animacjaTestowa3" class="test-block"/>
+                    <script>
+                        $("#animacjaTestowa3").on("click", function (){
+                            if (!$(this).is(":animated")) {
+                                if ($(this).css("opacity")==0.5){
+                                    $(this).animate({
+                                        width: "80px",
+                                        height: "90px",
+                                        opacity: 1,
+                                        duration: 1000
+                                });
+                                }
+                                else{
+                                    $(this).animate({
+                                    width: "+=" + 30,
+                                    height: "+=" + 30,
+                                    opacity: "-=" + 0.1,
+                                    duration: 1000
+                                });   
+                                }
+                            }
+                        });
+                    </script>
+                    <b>Click on the picture</b>
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec erat est, mattis sit amet nisi
+                    eu,
+                    cursus aliquam dolor. Morbi quis felis dui.
+                    Maecenas vitae nunc sit amet elit vulputate blandit sit amet sit amet diam. Sed velit felis,
+                    faucibus quis mi at, imperdiet sollicitudin mi.
+                    Ut porta tempor orci id tempor. Donec pulvinar tincidunt neque ac elementum. Nulla semper
+                    consectetur finibus. Etiam at dignissim orci.
+                    Quisque id euismod metus. Nam blandit diam nec pretium consequat. Aliquam maximus interdum
+                    dignissim. Nunc id varius justo. Sed finibus blandit lacinia.
+                    Proin eu aliquam mauris. Suspendisse lacus arcu, suscipit eu nulla non, aliquet egestas justo.
+                    Sed
+                    sed consectetur urna.
+                    Nullam vel mauris quis arcu tincidunt vestibulum. Praesent sit amet lorem vel metus mollis
+                    pharetra.
+                    Quisque bibendum tellus elit.
+                    In justo dolor, malesuada id mollis eget, posuere eu ipsum. Integer eget nunc lobortis, cursus
+                    nunc
+                    ac, ultricies sapien. Maecenas convallis odio sed elementum porttitor.
+                    Pellentesque ligula dui, efficitur interdum varius at, congue ac nibh. Aliquam a lectus at est
+                    sodales sollicitudin. In hac habitasse platea dictumst.
+                    Aenean sit amet venenatis turpis. Mauris tempus nisl nisl, vel porta diam dignissim sit amet. In
+                    ex
+                    odio, semper et pellentesque vel, rhoncus sit amet nisl.
+                    Suspendisse purus nulla, faucibus eu lacinia a, imperdiet sed mi. Aliquam eu ipsum scelerisque,
+                    rutrum ipsum finibus, rhoncus quam.
+                    Aliquam quis tellus eu enim lacinia dignissim et vel neque.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

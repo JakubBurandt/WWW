@@ -1,0 +1,388 @@
+<div class="container-fluid slider">
+  <img src="img/boisko.jpg" />
+</div>
+<div class="container">
+  <div class="row divisions mt-2 mb-5">
+    <div class="container">
+      <div class="row">
+        <h2 class="conference-title">
+          Eastern Conference
+        </h2>
+        <div class="col-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                ATLANTIC
+              </h5>
+              <div class="team-logo">
+                <img src="img/BOS.png"/>
+                <img src="img/PHI.png"/>
+                <img src="img/TOR.png"/>
+                <img src="img/NYK.png"/>
+                <img src="img/BKN.png"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                CENTRAL
+              </h5>
+              <div class="team-logo">
+                <img src="img/MIL.png"/>
+                <img src="img/CLE.png"/>
+                <img src="img/IND.png"/>
+                <img src="img/CHI.png"/>
+                <img src="img/DET.png"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                SOUTHEAST
+              </h5>
+              <div class="team-logo">
+                <img src="img/WAS.png"/>
+                <img src="img/ATL.png"/>
+                <img src="img/MIA.png"/>
+                <img src="img/ORL.png"/>
+                <img src="img/CHA.png"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <h2 class="conference-title mt-5">
+          Western Conference
+        </h2>
+        <div class="col-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                NORTHWEST
+              </h5>
+              <div class="team-logo">
+                <img src="img/UTA.png"/>
+                <img src="img/POR.png"/>
+                <img src="img/DEN.png"/>
+                <img src="img/MIN.png"/>
+                <img src="img/OKC.png"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                PACIFIC
+              </h5>
+              <div class="team-logo">
+                <img src="img/PHX.png"/>
+                <img src="img/SAC.png"/>
+                <img src="img/LAC.png"/>
+                <img src="img/GSW.png"/>
+                <img src="img/LAL.png"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                SOUTHWEST
+              </h5>
+              <div class="team-logo">
+                <img src="img/NOP.png"/>
+                <img src="img/DAL.png"/>
+                <img src="img/MEM.png"/>
+                <img src="img/SAS.png"/>
+                <img src="img/HOU.png"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid bg-white">
+  <div class="container record-section pt-5 pb-5">
+    <div class="row">
+      <div class="col-6">
+        <img src="img/kobe.jpg" id="animacjaTestowa1" class="test-block"> Click on the picture</img>
+        <script>
+          let status=0;
+          $("#animacjaTestowa1").on("click", function(){
+            if (status == 0){
+              $(this).animate({
+                width: "500px"
+              }, 750);
+              status=1;
+            }
+            else{
+              $(this).animate({
+                width: "100%"
+              }, 750);
+              status=0;
+            }
+          });
+        </script>
+      </div>
+      <div class="col-6">
+        <h1 class="title">
+          NBA RECORDS
+        </h1>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
+                The most games played
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+              aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Games played</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Robert Parish</td>
+                      <td>1611</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Kareem Abdul-Jabbar</td>
+                      <td>1560</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Vince Carter</td>
+                      <td>1541</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo">
+                The most points
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Career points</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Kareem Abdul-Jabbar</td>
+                      <td>38387</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>LeBron James</td>
+                      <td>37311</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Karl Malone</td>
+                      <td>36928</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                The most assists
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Career assists</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>John Stockton</td>
+                      <td>15806</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jason Kidd</td>
+                      <td>12091</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Chris Paul</td>
+                      <td>11071</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFour">
+                The most rebounds
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingFour">
+              <div class="accordion-body">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Career rebounds</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Wilt Chamberlain</td>
+                      <td>23924</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Bill Russell</td>
+                      <td>21620</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Kareem Abdul-Jabbar</td>
+                      <td>17440</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFive">
+                The most steals
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingFive">
+              <div class="accordion-body">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Career steals</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>John Stockton</td>
+                      <td>3265</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jason Kidd</td>
+                      <td>2684</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Michael Jordan</td>
+                      <td>2514</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseSix">
+                The most blocks
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingSix">
+              <div class="accordion-body">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Career blocks</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Hakeem Olajuwon</td>
+                      <td>3830</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Dikembe Mutombo</td>
+                      <td>3289</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Kareem Abdul-Jabbar</td>
+                      <td>3189</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

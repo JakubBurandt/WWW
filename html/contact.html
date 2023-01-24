@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <form action="mailto: jakub.burandt@student.uwm.edu.pl" method="post">
+                <div class="mb-3">
+                    <label for="leInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="InputEmail1" placeholder="name@example.com">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="InputName1" class="form-label">Name</label>
+                    <input type="Name" class="form-control" id="InputName1">
+                </div>
+                <div class="mb-3">
+                    <label for="InputComment1" class="form-label">Comment</label>
+                    <textarea class="form-control" id="InputComment1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</div>
+<form method="post" name="background">
+    <input type="button" class="btn btn-light" value="orginal" onclick="changeBackground('#EFF4F9')"/>
+    <input type="button" class="btn btn-light" value="silver" onclick="changeBackground('#C0C0C0')"/>
+    <input type="button" class="btn btn-light" value="white" onclick="changeBackground('#FFFFFF')"/>
+    <input type="button" class="btn btn-light" value="yellow" onclick="changeBackground('#FFFF00')"/>
+</form>
